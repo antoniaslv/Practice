@@ -1,0 +1,115 @@
+.search-bar {
+    font-size: 16px;
+    margin: 20px;
+    height: 36px;
+    padding-left: 10px;
+    width: 190px;
+    border: 0.7px solid rgb(193, 191, 191);
+    border-radius: 7px;
+}
+
+::placeholder {
+    color: rgb(138, 137, 137);
+}
+
+.divider {
+    background-color: black;
+    height: 2px;
+}
+
+.google-search-bar {
+    font-size: 13px;
+    margin: 20px;
+    width: 420px;
+    height:30px;
+    padding-left: 10px;
+    border-radius: 20px;
+    border: none ;
+    box-shadow: 1px 1px 9px 0.1px rgb(207, 206, 206);
+}
+
+.email-search-bar {
+    border: 1.8px solid rgb(61, 60, 60);
+    height: 25px;
+    width: 345px;
+    border-radius: 3.4px;
+}
+
+.email, .email-search-bar, .text, .button-p {
+    margin-left: 20px;
+    font-family: Arial;
+    font-size: 13px;
+}
+
+.email, .text {
+    color: rgb(107, 105, 105);
+}
+
+.agree-join-button {
+    padding: 10px 130px 10px 130px;
+    font-size: 16px;
+    border-radius: 18px;
+    margin-bottom: 20px;
+}
+
+.agree-join-button:hover {
+    opacity: 0.7;
+}
+
+.agree-join-button:active {
+    background-color: white;
+    color: rgb(34, 119, 229);
+}
+
+.goldenretriver-img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    object-position: right; 
+    border-radius: 100%;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+.whats-happening {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    width: 270px;
+    font-size: 15px;
+    border: none;
+    vertical-align: middle;
+}
+
+::placeholder {
+    color: rgb(132, 129, 129);
+}
+
+.tweet-button {
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 7px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-bottom: 7px;
+    border-radius: 16px;
+    vertical-align: middle;
+}
+
+.tweet-button:hover {
+    opacity: 0.7;
+}
+
+.tweet-button:active {
+    background-color: white;
+    color: rgb(34, 119, 229);
+}
+
+.tweet-button, .agree-join-button {
+    cursor: pointer;
+    transition: opacity 0.15s;
+    background-color: rgb(34, 119, 229);
+    color: white;
+    border: 1px solid rgb(34, 119, 229);
+
+}
