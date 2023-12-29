@@ -1,3 +1,4 @@
+
 .search-bar {
     font-size: 16px;
     margin: 20px;
@@ -59,6 +60,15 @@
 .agree-join-button:active {
     background-color: white;
     color: rgb(34, 119, 229);
+}
+
+.div-7d {
+    box-shadow: 0px 0px 7px rgb(177, 175, 175);
+    border-radius: 7px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    width: 430px;
+    margin-left: 20px;
 }
 
 .goldenretriver-img {
@@ -182,6 +192,7 @@
     border: none;
     border-radius: 1px;
     font-size: 13px;
+
 }
 
 ::placeholder {
@@ -214,6 +225,61 @@
 .request-button:active, .schedule-button:active {
     background-color: white;
     color: black;
-
 }
 
+.goldenretriver-page, .cat-page, .turtle-page  {
+    font-family: roboto;
+    width: 170px;
+    box-shadow: 0px 0px 4px rgb(170, 168, 168);
+    border-radius: 1px;
+    display: inline-block;
+    margin-right: 12px;
+}
+
+.goldenretriver-img-9a, .cat-img-9a, .turtle-img-9a {
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    object-position: right;
+}
+
+.add-friend-button, .friend-number, .pet-name {
+    margin-left: 7px;
+}
+
+
+.pet-name {
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+
+.friend-number {
+    color: rgb(107, 105, 105) ;
+    font-size: 13px;
+    margin-top: 4px ;
+}
+
+.add-friend-button {
+    margin-bottom: 10px;
+    height: 32px;
+    width: 95px;
+    font-size: 13px;
+    background-color: rgb(213, 67, 19);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.add-friend-button:hover {
+    opacity: 0.7;
+    text-decoration: underline;
+}
+
+.add-friend-button:active {
+    background-color: rgb(19, 178, 46)
+ 
+}
