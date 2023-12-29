@@ -111,5 +111,109 @@
     background-color: rgb(34, 119, 229);
     color: white;
     border: 1px solid rgb(34, 119, 229);
+}
+
+.first-name, .email-8a, .signup-button-8a {
+    margin-left: 20px ;
+}
+
+.first-name, .last-name, .email-8a {
+    font-size: 14px;
+    font-family: arial ;
+    height: 35px;
+    border-radius: 7px;
+    border: 1px solid rgb(219, 217, 217);
+}
+
+.first-name, .last-name {
+    margin-bottom: 13px;
+    width: 135px;
+}
+
+::placeholder {
+    color: rgb(118, 115, 115) ;
+    padding-left: 12px;
+}
+
+.email-8a {
+    display: block;
+    width: 275px;
+    margin-bottom: 13px ;
+}
+
+.signup-button-8a {
+    width: 278px;
+    height: 40px;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(34, 119, 229);
+    border: 1px solid rgb(34, 119, 229);
+    border-radius: 7px;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.signup-button-8a:active{
+    color: rgb(34, 119, 229);
+    background-color: white;
+}
+
+.signup-button-8a:hover{
+    opacity: 0.7;
+}
+
+.request-ride, .pickup-location, .destination, .request-button, .schedule-button {
+    font-family: roboto;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.request-ride {
+    font-size: 35px;
+    margin-bottom: 23px;
+}
+
+.pickup-location, .destination {
+    display: block;
+    margin-bottom: 7px;
+    width: 330px;
+    height: 38px ;
+    background-color: rgb(239, 239, 239);
+    border: none;
+    border-radius: 1px;
+    font-size: 13px;
+}
+
+::placeholder {
+    color: rgb(118, 115, 115) 
+}
+
+.request-button, .schedule-button {
+    margin-top: 25px;
+    height: 40px ;
+    width: 135px;
+    border: none;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.schedule-button {
+    margin-left: 10px;
+    background-color: rgb(239, 239, 239);
+}
+
+.request-button {
+    background-color: black;
+    color: white;
+}
+
+.request-button:hover, .schedule-button:hover {
+    opacity: 0.7;
+}
+
+.request-button:active, .schedule-button:active {
+    background-color: white;
+    color: black;
 
 }
+
